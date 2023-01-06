@@ -1,0 +1,50 @@
+/*roboto-font*/
+/*id - не повторяется, онможет быть только один, 
+если работаеи с ним, то ставим #*/
+/*class - может повторяться в коде, ставим точку*/
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;   /*размер шрифта*/
+    font-weight: normal; /*жирность шрифта*/
+    font-family: Verdana, Geneva,    /*изменение шрифта*/
+    Tahoma, sans-serif;
+
+    /*font: normal 16px Verdana, Geneva,
+    Tahoma, sans-serif;*/
+
+}
+
+
+/*работа с картинкой аватаркой*/
+.avatar{
+    width: 200px;
+    border-radius: 20зч;  /*край картинки*/
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);  /*тень картинки*/
+}
+
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;  /*промежуток между буквами*/
+    word-spacing: 42px;  /*промежуток между словами*/
+}
+
+.container{
+    max-width: 750px;
+}
+
+.social{
+    background: green;
+    padding: 15px;   /*внутреннние отступы*/
+    border: 5px solid red;
+    margin: 20px;
+
+    border-bottom-style: dotted;
+}
